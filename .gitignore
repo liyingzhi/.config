@@ -1,0 +1,18 @@
+# ignore everything
+/*
+/*/
+
+# ... but these:
+!/Readme.org
+!/.gitignore
+!/waybar/
+!/hypr/
+!/rofi/
+!/elvish/
+!/ranger/
+!/kitty/
+!/dunst/
+!/alacritty/
+!/zellij/
+!/yazi/
+!/starship.toml
