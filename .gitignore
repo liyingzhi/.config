@@ -16,4 +16,5 @@
 !/zellij/
 !/yazi/
 !/starship.toml
-/kitty/*.bk 
+/kitty/*.bk
+/*/*.bak
