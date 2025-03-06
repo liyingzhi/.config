@@ -16,5 +16,16 @@
 !/zellij/
 !/yazi/
 !/starship.toml
+!/fcitx
+!/fcitx5
+!/PlotJuggler
+!/btop
+!/flameshot
+!/lazygit
+!/lazydocker
+!/neofetch
+!/ripgrep-all
+!/waveterm
+
 /kitty/*.bk
 /*/*.bak

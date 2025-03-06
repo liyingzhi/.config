@@ -1,0 +1,11 @@
+customCommands:
+  containers:
+    - name: new-zsh
+      attach: true
+      shell: true
+      command: 'xhost +local: && docker exec -it {{ .Container.ID }} /bin/zsh'
+      serviceNames: []
+    - name: new-ssh
+      attach: false
+      command: 'docker exec {{ .Container.ID }} sudo /usr/sbin/sshd -D -e -f /etc/ssh/sshd_config_test'
+      serviceNames: []
