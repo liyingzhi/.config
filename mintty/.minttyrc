@@ -1,0 +1,11 @@
+Font=Source Code Pro
+FontHeight=14
+ForegroundColour=255,255,255
+BackgroundColour=0,0,0
+CursorColour=255,255,255
+Transparency=high
+Columns=120
+Rows=30
+ScrollbackLines=10000
+BoldAsFont=yes
+CtrlShiftShortcuts=yes
