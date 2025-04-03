@@ -1,3 +1,4 @@
+# 配置参考: https://alacritty.org/config-alacritty.html
 # $HOME/.config/alacritty/alacritty.toml
 
 # Alacritty 倒是提供了 Windows 下的便携版，但是其配置文件却是在 %APPDATA%\alacritty\alacritty.yml
@@ -56,6 +57,13 @@ shell = { program = "bash", args = ["-l"] }
 
 [cursor]
 style = "Beam"
+
+[keyboard]
+bindings = [
+    { key="ArrowUp", mods="Control|Alt", action="ScrollLineUp" },
+    { key="ArrowDown", mods="Control|Alt", action="ScrollLineDown" },
+    { key="Enter", mods="Control|Alt", action="ToggleViMode" },
+]
 
 # Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
 # Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a

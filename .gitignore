@@ -27,6 +27,8 @@
 !/ripgrep-all
 !/waveterm
 !/mintty
+!/uv
 
 /kitty/*.bk
 /*/*.bak
+/uv/uv-receipt.json
