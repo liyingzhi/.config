@@ -126,6 +126,12 @@ PS1="\[\e[1;37m\]╭─\[\e[32m\]Ciallo～(∠・ω< )⌒☆  \[\e[34m\]\u@\h \[
 alias tmux="zellij"
 alias ltmux="zellij a -c localSession"
 
+# ➜  ~ ln -s /home/ii/github/mini-emacs-run.sh /home/ii/.local/bin/miniemacs
+# ➜  ~ ln -s /home/ii/github/igc_emacs/igc-emacs.sh /home/ii/.local/bin/igcemacs
+
+# alias miniemacs='emacs --init-directory=/home/ii/github/mini-emacs/'
+# alias igcemacs='/home/ii/github/igc_emacs/igc-emacs.sh'
+
 if [ -f ~/.fzf.bash ]; then
     . ~/.fzf.bash
 fi
@@ -135,3 +141,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias lzd='lazydocker'
+. "$HOME/.cargo/env"
+
+PROMPT_COMMAND='history -a'
+
+# Set up zoxide
+eval "$(zoxide init bash)"
