@@ -10,6 +10,8 @@ EnumerateSkipFirst=False
 0=Control+space
 1=Zenkaku_Hankaku
 2=Hangul
+3=Control+Alt+space
+4=Alt+greater
 
 [Hotkey/EnumerateForwardKeys]
 0=Control+Shift_L
